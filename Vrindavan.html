@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    
+<title>Vrindavan Milk </title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.0.9/css/font-awesome.min.css">
+<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+<link rel="stylesheet" href="style3.css">
+<style>
+body, html {
+  height: 100%;
+  line-height: 1.8;
+}
+h1,h2,h3,h4,h5,a{
+  text-decoration: none;
+}
+#title{
+	text-align: left;
+}
+#titleh1{
+  font-family: Montserrat;
+	font-size: 3rem;
+	line-height: 1.5;
+}
+
+/* DownloadButtons */
+.download-button{
+	margin: 5% 3% 3% 0% ;
+
+}
+
+/* titleImage */
+.title-image{
+	/* width: 57%; */
+	/* transform: rotate(25deg); */
+	position: relative;
+	/* top: 10%; */
+  bottom: 10%;
+  z-index: 0;
+}
+
+
+
+</style>
+</head>
+<body>
+<!-- Navbar (sit on top) -->
+<section id="title">
+  <div class="container-fluid" style="background-color: rgb(53, 143, 109); box-shadow: 3px 3px 3px rgba(59, 58, 58, 0.9);">
+     <div>
+       
+      
+      <a class="navbar-brand" href="#"></a>
+      <nav id = "navbar" class="navbar navbar-expand-lg navbar-dark">
+       <a href="about.html"> <img src="100n.jpg " alt="" width="80" height="80" style="margin-top:20px; border-radius: 100%;"></a>        <a class="navbar-brand" href="#"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent" style="margin-left:PX;">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active " >
+              <a class="nav-link navbar-brand" href="#" style="font-size: 50px; color: rgb(235, 235, 243); font-family: Ubuntu"><strong>VrindaMilk</strong><span class="sr-only">(current)</span></a>
+            </li>
+          
+        
+            <li class="nav-item" >
+              <a class="nav-link" href="#" style="font-size: 25px; color: rgb(223, 226, 225);">Home</a>
+            </li>
+            <li class="nav-item" >
+              <a class="nav-link" href="order.html" style="font-size: 25px; color: rgb(223, 226, 225);">OrderNow</a>
+            </li>
+              
+            
+            <li class="nav-item">
+              <a class="nav-link" href="about.html"  style="font-size: 25px;color: rgb(233, 241, 238);">AboutUs</a>
+             </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search Product" aria-label="Search">
+            <button id = "search" onmouseover="searchOver()" class="btn btn-outline-light my-2 my-sm-0" type="submit" >Search</button>
+          </form>
+        </div>
+      </nav>
+     </div>
+  </div>
+</section>
+
+  <!-- Title -->
+  <section class="coloured-section" id = "title">
+    <div class="container-fluid" style="background-image: url(https://media0.giphy.com/media/U1xNCS03tHSscyPQqR/200w.webp?cid=ecf05e47763xpderqx2yfx4ceyuaywjqou1s5eh95oa07ieg&rid=200w.webp);">
+      <div class="container"></div>
+       <div class="row">
+         <div class="col-lg-6" style="padding: 100px;">
+           <h1 id= "titleh1" style="color: rgb(18, 18, 19); text-align:left; font-size: 40px;"><strong>Download VrindaMilk mobile app.</strong></h1>
+          <button type="button" class="btn btn-dark w3-hover-white btn-lg download-button "><i class="fab fa-apple"></i> Download</button>
+          <button type="button"class="btn btn-outline-dark btn-lg download-button "><i class="fab fa-google-play"></i> Download</button>
+               </div>
+     
+        <div class="col-lg-6 ml-auto">
+         <img class="title-image" src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/58d21835814413.5704ba7632684.png" alt="iphone-mockup" width="700" height="500" style="image-resolution: 20px; padding: 50px;margin-left: 30px;">
+       </div>
+       </div>
+      </div>
+     </div>
+
+
+</section>
+  </div>
+</div>
+<!-- description -->
+<section id="description" style="z-index: 1;">
+  
+<div class="container-fluid w3-padding-64 w3-center w3-row-padding w3-margin-bottom" id="team" style="background-color: white;" >
+  <br>
+  <h1 style="color: rgb(53, 143, 109);padding: 20px; font-family:Palatino Linotype; font-size:50px; font-family: Montserrat; ">Our Products</h1>
+<div class="row"><br><br><br>
+
+<div class="col-md-4  ">
+  <div class=" w3-hover-opacity w3-row-padding w3-margin-bottom" style=" margin-left: 20px;"><br>
+ <img src="milk.jpg" alt="Boss" style="width:25%" class="w3-circle">
+ <h2>Fresh Cow Milk</h2>
+ <p style="box-shadow: 0 3px 3px rgba(199, 197, 197, 0.9); padding: 10px;">Farm fresh & pure cow milk from our dairy farms <br> where we ensure cow comfort hygiene,health and <br>high quality feed grown by us using cow manure.<br> This milk also go through several testing & quality <br> check process.</p>
+</div>
+</div>
+<div class="col-md-4   w3-container">
+  <div class=" w3-hover-opacity w3-row-padding w3-margin-bottom" style="" ><br>
+ <img src="panner.jpg" alt="Boss" style="width:31%" class=" w3-hover-opacity">
+ <h2> Fresh Paneer</h2>
+ <p style="box-shadow: 0 3px 3px rgba(199, 197, 197, 0.9) ; padding: 10px;">Vrindavan paneer is a healthy food and is high <br>protein and calcium content and low fat content.<br> It is also a good source of numerous other<br> nutrients and is extremely easy on the digestive <br>system.</p>
+</div>
+</div>
+<div class="col-md-4  w3-container" >
+  <div class=" w3-hover-opacity w3-row-padding w3-margin-bottom"><br>
+ <img src="ghee.jpg" alt="Boss" style="width:25%" class="w3-circle w3-hover-opacity">
+ <h2 >Shudh Cow Ghee</h2>
+ <p style="box-shadow:  0 3px 3px rgba(199, 197, 197, 0.9); padding: 10px;  padding: 10px;"> Vrindavan Cow Ghee is made from our dairy farm <br>healthy cows. It is good source of energy and<br> provides vitality to human body and it has typical<br> roch aroma and granular texture. Ghee rich<br> source of vitamin A, D, E and K.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- First Photo Grid-->
+ <div class="w3-row-padding" >
+   <center><h1 style="color:rgb(53, 143, 109); font-family:Palatino Linotype; font-size:40px; font-family: Montserrat;"> Why VrindaMilk?</strong> </h1></center><br>
+   <div class="w3-third w3-container w3-margin-bottom" style="color:rgb(159, 211, 101);" >
+     <div ><br>
+    <center><i class="fas fa-hand-holding-heart fa-3x" style="color:rgb(22, 236, 154);"></i></center><br>
+     <div class="w3-container w3-light-grey">
+       <center><p style="color:rgb(92, 134, 40);"><b>Farm and Dairy Fresh</b></p></center>
+       <p style="color:rgb(92, 134, 40);">Our milk comes from our large dairy farms where entire process like feeding, milking etc is automated and milk gets delivered within 36 hours of milking to our customers. we are not collecting milk from individual farmers where the quality can not be assured.</p><br><br>
+     </div>
+   </div>
+ </div>
+   <div class="w3-third w3-container w3-margin-bottom">
+     <div ><br>
+    <center><i class="fa fa-recycle fa-3x" style="color:rgb(22, 236, 154);"></i></center><br>
+     <div class="w3-container w3-light-grey">
+       <center><p style="color:rgb(92, 134, 40);"><b>Researched Recycled</b></p></center>
+       <p style="color:rgb(92, 134, 40);">Besides scientific testing process where our milk is tested on more than 70 parameters at different stages. We make sure our cattle are stress free, high quality of feed is given to them and no injections are given to them to boost their productivity.</p><br><br>
+     </div>
+   </div>
+   </div>
+   <div class="w3-third w3-container">
+     <div class=" w3-hover-opacity"><br>
+     <center><i class="fas fa-vial fa-3x" style="color:rgb(22, 236, 154);"></i></center><br>
+     <div class="w3-container w3-light-grey">
+       <center><p style="color:rgb(92, 134, 40);"><b>Our Quality Parameters</b></p></center>
+       <p style="color:rgb(92, 134, 40);">Besides scientific testing process where our milk is tested on more than 70 parameters at different stages. We make sure our cattle are stress free, high quality of feed is given to them and no injections are given to them to boost their productivity.</p><br><br>
+     </div>
+   </div>
+   </div>
+ </div>
+
+ <!-- Second Photo Grid-->
+ <div class="w3-row-padding">
+   <div class="w3-third w3-container w3-margin-bottom"  >
+    <div  ><br>
+      <center><i class="fas fa-home fa-3x" style="color:rgb(22, 236, 154);"></i></center><br>
+     <div class="w3-container w3-light-grey">
+       <center><p style="color:rgb(92, 134, 40);"><strong>No Contact, Free Home Delivery</strong></p></center>
+       <p style="color:rgb(92, 134, 40);">Our farm fresh products are delivered to customer doorstep every morning with no extra cost. We follow no contact delivery process where our delivery partners drop off the product in a bag hanging outside the gate of our customer.</p><br><br>
+          </div>
+   </div>
+   </div>
+   <div class="w3-third w3-container w3-margin-bottom">
+     <div ><br>
+     <center><i class="fas fa-thermometer-three-quarters fa-3x" style="color:rgb(22, 236, 154);"></i></center><br>
+     <div class="w3-container w3-light-grey">
+       <center><p style="color:rgb(92, 134, 40);"><b>Pasteurising & Maintaining Cold Chain</b></p></center>
+       <p style="color:rgb(92, 134, 40);">We pasteurised milk and maintaining milk at 3C to improves shelf life and prevents increase in bacteria counts. We maintain the milk chain immediately after the milking is done till it reaches to our customers.</p><br><br>
+     </div>
+   </div>
+   </div>
+   <div class="w3-third w3-container">
+     <div ><br>
+     <center><i class="fas fa-mobile-alt fa-3x" style="color:rgb(22, 236, 154);"></i></center><br>
+     <div class="w3-container w3-light-grey">
+      <center> <p style="color:rgb(92, 134, 40);"><b>User Friendly Mobile App</b></p></center>
+       <p style="color:rgb(92, 134, 40);">Our mobile app is user friendly customers subscribers once and we keep delivering everyday. User can change their next day orders till 12 AM, easy payment options and billing process.</p><br><br>
+     </div>
+   </div>
+ </div>
+</div><br>
+<!-- Page content -->
+<div style="color:rgb(53, 143, 109);">
+<center><h1 style="color:rgb(53, 143, 109);font-family:Ubuntu"><strong> Benifits of Vrindavan Milk</strong></h1></center><br>
+<div class="w3-content" style="max-width:1100px;">
+  <div class="w3-row-padding">
+    <div class="w3-third w3-container w3-margin-bottom">
+      <div  style="background-color:rgb(22, 236, 154);"><br><br>
+    <center><i class="fas fa-clinic-medical fa-3x" style="color:white"></i></center><br>
+    <hr style="color:white; width:30%; height:50px; border-width:5px;">
+    <center><p style="color:white;"> Reduces acidity <br> and De-toxifies body </p></center><br><br>
+</div>
+</div>
+<div class="w3-third w3-container w3-margin-bottom">
+  <div class="w3-card" style="background-color:rgb(22, 236, 154);"><br><br>
+<center><i class="fas fa-hand-holding-medical fa-3x" style="color:white"></i></center><br>
+<hr style="color:white; width:30%; height:50px; border-width:5px;">
+<center><p style="color:white;"> Prevents obesity, <br> joint pain, thyroid and <br> migrane headache</p></center><br>
+</div>
+</div><div class="w3-third w3-container w3-margin-bottom">
+  <div class="w3-card" style="background-color:rgb(22, 236, 154);"><br><br>
+<center><i class="fas fa-lungs fa-3x" style="color:white"></i></center><br>
+<hr style="color:white; width:30%; height:50px; border-width:5px;">
+<center><p style="color:white;"> Improves immunity, <br> memory and kidney health</p></center><br><br>
+</div>
+</div>
+</div>
+</div><br><br><br>
+</div>
+<!-- Product -->
+<div class="container-fluid" style="background-color: white;">
+ <center><h1 style="color:rgb(122, 124, 121); font-family:sans-serif; font-size:60px; padding: 10px; "><strong> Shop Now</strong> </h1></center><br>
+ <div class="w3-content" style="max-width:1100px; ">
+ <div class=" w3-margin">
+<ul class="w3-ul w3-hoverable w3-white">
+
+  <li class="w3-padding-16">
+    <img src="milk.png" alt="Image" class="w3-left w3-margin-right" style="width:150px; height:170px;">
+    <h3 style=" font-family: Ubuntu; color: rgb(22, 236, 154);"> Cow Milk - Pouch Pack </h3>
+    <p style="color: rgb(163, 164, 165);"> <b>Farm fresh milk delivered within 24 hrs of milking<b></p>
+      <h6> Farm fresh & pure cow milk from Hi Tech dairy farms where we ensure cattle comfort, hygiene, health and hight quality feed 24*7.</h6>
+      
+    </li>
+  <li class="w3-padding-16">
+    <img src="paneer.jpg" alt="Image" class="w3-left w3-margin-right" style="width:150px; height:170px;">
+    <h3 style="color:rgb(22, 236, 154); font-family: Ubuntu;">Fresh Paneer</h3>
+    <p style="color:rgb(163, 164, 165)"><b>Ghar jaisa taaza paneer</b></p>
+    <h6>Vrindavan paneer is a healthy and is high protein and calcium content and low fat content. It is a good source of numerous other nutrients and is extremely easy on the digestive system.</h6>
+    
+  </li>
+  <li class="w3-padding-16">
+    <img src="ghee.jpg" alt="Image" class="w3-left w3-margin-right" style="width:150px; height:170px">
+    <h3 style="color: rgb(22, 236, 154);; font-family: Ubuntu;">Shudh Cow Ghee</h3>
+    <p style="color:rgb(163, 164, 165)"><b>Ghar jaisa shudh desi ghee</b></p>
+    <h6>Vrindavan cow ghee is made from our dairy farm healthy cows. It is good source of energy and provides vitality to human body.</h6>
+    
+  </li>
+  <li class="w3-padding-16 w3-hide-medium w3-hide-small">
+    <img src="bread.jpg" alt="Image" class="w3-left w3-margin-right" style="width:150px; height:180px;">
+    <h3 style="color:rgb(22, 236, 154); font-family: Ubuntu;">White Bread</h3>
+    <p style="color:rgb(163, 164, 165)"><b>100% Chemical free, No added preservatives</b></p>
+    <h6>White bread is prepared using Refined Wheat flour, Butter, Sunflower oil, Milk solid, Sugar, Yeast and Salt. Our bread is 100% chemical free, contains natural ingredients, does not contain any preservatives.</h6>
+    
+  </li>
+</ul>
+<center><h3 style="color: aliceblue; padding: 30px;"><a href="#">View more products</a></h3></center>
+</div>
+</div>
+</div>
+<center><hr style="width: 80%;"></center>
+<!-- customer -->
+<div class="container-fluid" style="background-color: white; padding: 5px;">
+ <center><h1 style="color:rgb(75, 73, 73); font-family:sans-serif; font-size:30px; margin-bottom: 30px;"> What our customers say </h1></center>
+ <div class="w3-content" style="max-width:1300px;">
+ <div class="w3-container w3-padding-64 w3-center">
+   <div class="w3-row">
+
+<div class="w3-third" style="padding: 10px; box-shadow: 1px 0px 0.5px rgb(53, 52, 52,0.3); ">
+  <img src="https://clipground.com/images/clipart-man-with-glasses-18.png" alt="Boss" style="width:15%" class=" w3-hover-opacity">
+  <h4>Mr. Rahul</h4>
+  <h6>I am using doodhvale milk and other dairy products from last two years, my son and daughter both likes it very much. Its awesome in taste and quality.</h6></div>
+
+<div class="w3-third" style="padding: 10px; box-shadow: 1px 0px 0.4px rgb(53, 52, 52,0.3);">
+  <img src="https://tse3.mm.bing.net/th?id=OIP.lIFuQGODKbqDH5QPKBAxQwHaIU&pid=Api&P=0&w=300&h=300" alt="Boss" style="width:20%" class=" w3-hover-opacity">
+  <h4 >Mrs. Sarita Jain</h4>
+  <h6 >I am using doodhvale milk and other dairy products from last two years, my son and daughter both likes it very much. Its awesome in taste and quality.</h6>
+</div>
+
+<div class="w3-third" style="padding: 10px; ">
+  <img src="https://tse2.mm.bing.net/th?id=OIP.QZ6gs4h97uzkKltjFEdmcQHaIW&pid=Api&P=0&w=300&h=300" alt="Boss" style="width:20%" class="w3-hover-opacity">
+  <h4 >Dr. Garima Goel</h4>
+  <h6>I am very happy with the quality of milk and other dairy products, I recommend others to use doodhvale's milk becuase its fresh and pure.</h6>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<!-- Footer -->
+
+<!-- <footer >  -->
+  <div class="container-fluid" style="background-color:rgb(61, 70, 57);">
+    <div class="row" style="padding: 100px;">
+    <div class="col-sm-6" style="text-align: center;">
+    <h3 style="font-family: Ubuntu; color: white"><strong>follow us</strong></h3>
+      <i class="fab fa-facebook-square fa-2x w3-hover-opacity" style="color:white ; margin: 15px;"></i>
+    <i class="fab fa-instagram fa-2x w3-hover-opacity" style="color: white; margin: 15px;"></i>
+    <i class="fab fa-twitter fa-2x w3-hover-opacity" style="color: white; margin: 15px;"></i>
+    <p style=" color: white;">address</p>
+  <h5 style="color: white; font-family:sans-serif;">&copy;VrindaMilk, 2020<h5>
+  </div>
+  <div class="col-sm-6 " style="text-align: center;">
+  <h4 style="font-family: Ubuntu; color:white ;"><a href="#">Useful Links</a></h4>
+  <h6 style="color:white;"><a href="#">Privacy Policy</a></h6>
+  <h6 style="color:white;"><a href="#">Terms & Condition</a></h6>
+  <h6 style="color:white;"><a href="#">Refund Policy</a></h6>
+  </div> 
+
+  </div>
+  
+</div>
+
+<!-- </footer> -->
+<!-- </footer> -->
+</body>
+</html>
